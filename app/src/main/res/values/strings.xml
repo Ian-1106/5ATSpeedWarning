@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">5AT測速照相警示器-正式版</string>
+    <string name="update_txt">線上更新座標需網路連線。</string>
+    <string name="照相系統模式">只提示使用者固定測速照相點與距離倒數。</string>
+    <string name="照相系統限速模式">提示使用者固定測速照相點的限速與距離倒數。</string>
+    <string name="安全駕駛限速模式">提示使用者固定測速照相點的限速與距離倒數，以及提前警示易肇事路段、商場、學校、加油站、收費站等。</string>
+    <string name="機車模式">除了高速公路/快速道路/快車道的照相點外，其他都會警示。</string>
+    <string name="汽車模式">除了位在慢車道的照相點外，其他都會警示。</string>
+    <string name="重機模式">除了位在高速公路的照相點外，其他都會警示。</string>
+    <string name="完整模式">所有建檔的測速點都會警示。</string>
+    <string name="超速語音警報">速度超過速限時發出警告。</string>
+    <string name="版本資訊的詳細資料">系統版本:23K08V\n座標版本:23K08P</string>
+    <string name="設定的說明文字">1.功能選單:\n\t\tAPP畫面左上方這圖示為選單，點擊後可以選擇背景執行或是進入設定介面等操作。</string>
+    <string name="GPS訊號的說明文字">2.GPS訊號:\n\t\tAPP畫面右上方這圖示代表GPS訊號強度，在室內的話會沒有訊號。\n另外，GPS訊號跟wifi網路訊號及行動網路訊號完全不同，GPS是從太空中的衛星發射下來的訊號，藉由郭科衛星的電波訊號時間差可以算出距離、位置及速度，所以一定要在戶外才能運作。</string>
+    <string name="電池電量的說明文字">3.電池電量:\n\t\tAPP畫面右上方這圖示代表電池電量</string>
+    <string name="速度顯示">4.速度顯示:\n\t\tAPP畫面中紅色框框為速度條與速度顯示框。</string>
+    <string name="海拔高度顯示">5.海拔高度顯示:\n\t\tAPP畫面中綠色框框為海拔高度顯示框。</string>
+    <string name="測速照相警示區">6.測速照相警示區:\n\t\tAPP畫面中右下方黃色框框為測速照相警示區，內容包含照相類別圖示、速限以及距離倒數。</string>
+</resources>

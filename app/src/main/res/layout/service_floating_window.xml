@@ -1,0 +1,98 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/floating_image_view"
+        android:layout_width="161dp"
+        android:layout_height="165dp"
+        android:layout_alignParentEnd="true"
+        android:elevation="2dp"
+        android:src="@drawable/circle"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/alarmIcon_Bg"
+        android:layout_width="161dp"
+        android:layout_height="165dp"
+        android:layout_below="@+id/floating_image_view"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:elevation="2dp"
+        android:src="@drawable/camera"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@+id/floating_image_view"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="31dp" />
+
+    <TextView
+        android:id="@+id/speed_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="40sp"
+        android:elevation="3dp"
+        app:layout_constraintStart_toStartOf="@+id/floating_image_view"
+        app:layout_constraintEnd_toEndOf="@+id/floating_image_view"
+        app:layout_constraintTop_toTopOf="@+id/floating_image_view"
+        app:layout_constraintBottom_toBottomOf="@+id/floating_image_view"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <TextView
+        android:id="@+id/speed_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:elevation="3dp"
+        android:text="km/hr"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/floating_image_view"
+        app:layout_constraintEnd_toEndOf="@+id/floating_image_view"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="@+id/floating_image_view"
+        app:layout_constraintTop_toBottomOf="@+id/speed_tv"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints,UnknownIdInLayout" />
+
+    <TextView
+        android:id="@+id/speedLimit_Bg"
+        android:layout_width="52dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="68dp"
+        android:elevation="3dp"
+        android:text="10"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/alarmIcon_Bg"
+        app:layout_constraintEnd_toEndOf="@+id/alarmIcon_Bg"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="@+id/alarmIcon_Bg"
+        tools:ignore="MissingConstraints,UnknownIdInLayout" />
+
+    <TextView
+        android:id="@+id/speedReciprocal_Bg"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="7dp"
+        android:elevation="3dp"
+        android:text="000M"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/alarmIcon_Bg"
+        app:layout_constraintEnd_toEndOf="@+id/alarmIcon_Bg"
+        app:layout_constraintHorizontal_bias="0.683"
+        app:layout_constraintStart_toStartOf="@+id/alarmIcon_Bg"
+        tools:ignore="MissingConstraints,UnknownIdInLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

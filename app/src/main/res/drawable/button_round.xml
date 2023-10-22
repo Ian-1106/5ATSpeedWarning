@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--按壓時-->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="15dip"/>
+            <gradient android:angle="-90" android:startColor="@color/darkgray" android:endColor="@color/darkgray" />
+        </shape>
+    </item>
+    <!--預設時-->
+    <item android:color="@color/darkgray">
+        <shape android:shape="rectangle">
+            <corners android:radius="15dip"/>
+            <gradient android:angle="-90" android:startColor="@color/gray" android:endColor="@color/dash_board"/>
+        </shape>
+    </item>
+</selector>
